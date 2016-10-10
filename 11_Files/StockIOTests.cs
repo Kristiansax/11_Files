@@ -39,8 +39,8 @@ namespace _11_Files
         {
             StockIO io = new StockIO();
 
-            String hpData = "HP" + NL + "11,4" + NL + "10" + NL;
-            String yhooData = "YHOO" + NL + "57,2" + NL + "30" + NL;
+            string hpData = "HP" + NL + "11,4" + NL + "10" + NL;
+            string yhooData = "YHOO" + NL + "57,2" + NL + "30" + NL;
 
             StringReader data = new StringReader(hpData);
             Stock loaded = io.ReadStock(data);

@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Collections;
@@ -113,4 +113,4 @@ namespace _11_Files
             Assert.AreEqual(2, stocks.Count);
         }
     }
-}*/
+}
